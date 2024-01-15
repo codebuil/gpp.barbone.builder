@@ -1,2 +1,3 @@
-# Nasm.linux.32
-Nasm linux small samples
+# list.string.function
+
+list same function on string.h
