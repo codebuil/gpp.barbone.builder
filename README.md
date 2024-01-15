@@ -1,3 +1,6 @@
-# list.string.function
+# list.include.function
 
-list same function on string.h
+list same function on include file
+
+
+bash string.sh string.h
