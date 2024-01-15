@@ -3,4 +3,4 @@
 list same function on include file
 
 
-bash string.sh string.h
+python3 head.py
