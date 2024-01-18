@@ -1,6 +1,3 @@
-# list.include.function
+# list.objectdump.functions
 
-list same function on include file
-
-
-python3 head.py
+list a object dump and find a function id same key and list it on the screen
