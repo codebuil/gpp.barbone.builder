@@ -811,7 +811,27 @@ void start_dll(){
 		
 		
 } 
-
+struct ostring{
+    char *s1;
+ostring& operator&=(char* str1){
+    strcpys(s1 ,str1);
+return *this;
+}
+ostring& operator*=(int a){
+    s1=malloc(a);
+return *this;
+}    
+ostring& operator+=(char* str1){
+    strcats(s1 ,str1);
+return *this;
+}
+};
+struct oostring{
+    char *s1;
+};
+char *toString(ostring s1){
+return s1.s1;
+}
 
 
 
